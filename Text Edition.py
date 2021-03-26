@@ -1,8 +1,8 @@
 from random import choice
-cert_wins={}
-cert_losses=[]
-lastmove=[]
-pos_before_lastmove=[]
+cert_wins=dict()
+cert_losses=list()
+lastmove=list()
+pos_before_lastmove=list()
 def newgame():
     print('New Game')
     player_move(['a1','b1','c1'],['a3','b3','c3'])
